@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.header1 h1 {
+  color: #f2d851;
+  margin-top: 30px;
+  font-size: 34px;
+}
+
+.quemsomos p {
+  color: #f2d851;
+  font-size: 18px;
+}
+
+.section1 {
+  background: linear-gradient(to right, black, #3533cd);
+}
+
+.footer1 {
+  white-space: nowrap;
+  line-height: 20px;
+  font-size: 20px;
+}
+footer {
+  background: #00bfc3;
+  padding: 0;
+  color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  border-top: 8px solid black;
+  border-bottom: 8px solid black;
+}
+
+.quemsomos {
+  display: flex;
+}

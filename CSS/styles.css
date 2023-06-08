@@ -1,0 +1,472 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  padding: 0;
+}
+
+.header-menu {
+  display: flex;
+  background: linear-gradient(to right, #ffde59, #ff914d);
+  padding: 4px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+}
+
+.logo {
+  color: white;
+  width: 150px;
+  border-left: 3px solid white;
+  margin: 10px 0;
+}
+
+.logo h1 {
+  font-size: 18px;
+  padding-left: 14px;
+  line-height: 20px;
+}
+
+.menu {
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  gap: 64px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.footer {
+  background: #00bfc3;
+  padding: 0;
+  color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  border-top: 8px solid black;
+  border-bottom: 8px solid black;
+  z-index: 1;
+  position: relative;
+}
+
+.footer p {
+  white-space: nowrap;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.section3 {
+  background: linear-gradient(to right, black, #3533cd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 64px;
+  overflow: hidden;
+}
+
+.section3 h2 {
+  margin-top: 50px;
+  font-size: 56px;
+  color: #f9e255;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/forest-pixels.png");
+  width: 90%;
+  height: 80vh;
+}
+
+.section1 {
+  background: linear-gradient(to right, black, #3533cd);
+}
+
+.nossas-redes {
+  background: linear-gradient(to right, black, #3533cd);
+}
+
+.nossas-redes h3 {
+  color: #f2d851;
+  font-size: 34px;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes-de-apoio {
+  display: flex;
+  background: linear-gradient(to right, #ffde59, #ff914d);
+}
+
+.redes-de-apoio h4 {
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.iframe {
+  justify-content: center;
+  align-items: center;
+}
+
+/*-ALTERANDO APRESENTAÇÃO-*/
+
+.section2 {
+  background: linear-gradient(to right, #ffde59, #ff914d);
+  position: relative;
+}
+
+.section2 .top-pattern {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 400px;
+  z-index: 0;
+  object-fit: cover;
+  clip-path: inset(0 0 53% 0);
+  opacity: 0.5;
+}
+
+.section2 .bottom-pattern {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  /* height: 400px; */
+  z-index: 0;
+  object-fit: cover;
+  clip-path: inset(0 0 53% 0);
+  opacity: 0.5;
+  bottom: 0;
+  transform: scaleY(-1);
+}
+
+.section2 .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 92px;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 0;
+  z-index: 1;
+  position: relative;
+}
+
+.header-presentation {
+  margin-top: 30px;
+}
+
+.header-presentation h1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+  font-size: 56px;
+}
+
+.parte1 p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.parte1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+
+.parte1 p {
+  width: 50%;
+}
+
+.parte1 img {
+  width: 50%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.footer p {
+  white-space: nowrap;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+footer {
+  background: #00bfc3;
+  padding: 0;
+  color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  border-top: 8px solid black;
+  border-bottom: 8px solid black;
+}
+
+/*-"CONHEÇA OS FANTASMAS"-*/
+
+.section4 {
+  background: linear-gradient(to right, #ffde59, #ff914d);
+  position: relative;
+}
+
+.section4 .top-pattern {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 400px;
+  z-index: 0;
+  object-fit: cover;
+  clip-path: inset(0 0 53% 0);
+  opacity: 0.5;
+}
+
+.section4 .bottom-pattern {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  /* height: 400px; */
+  z-index: 0;
+  object-fit: cover;
+  clip-path: inset(0 0 53% 0);
+  opacity: 0.5;
+  bottom: 0;
+  transform: scaleY(-1);
+}
+
+.section4 .wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 92px;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 0;
+  z-index: 1;
+  position: relative;
+}
+
+.header3 h3 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo p {
+  font-size: 36px;
+  text-align: center;
+  line-height: 110%;
+  font-weight: medium;
+}
+
+.conteudo .family {
+  height: 400px;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 32px;
+  border: 20px solid #e9e9e9;
+  background: url("../img/family2.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
+}
+
+.conteudo .family:hover {
+  background: url("../img/family.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover;
+}
+
+.conteudo a {
+  width: 70%;
+  text-align: center;
+}
+/*-CONHEÇA OS FANTASMAS PARTE2-*/
+
+.section4-1 {
+  position: relative;
+  background: linear-gradient(to right, #ffde59, #ff914d);
+}
+
+/*-QUEM SOMOS-*/
+
+.section5 {
+  background: linear-gradient(to right, black, #3533cd);
+  position: relative;
+}
+
+.section5 .wrapper3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 92px;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 150px 0;
+  position: relative;
+}
+
+.header1 {
+  margin-top: 30px;
+  color: #f9e255;
+  font-size: 56px;
+}
+
+.header1 h5 {
+  font-size: 56px;
+  text-align: center;
+}
+
+.quemsomos p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 26px;
+  color: #f9e255;
+  /* margin-bottom: 150px; */
+  font-weight: bold;
+}
+
+.quemsomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+
+.wrapper3 img {
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  /* margin-bottom: 150px; */
+}
+/*-NOSSAS REDES-*/
+
+/*-REDES DE APOIO-*/
+.redes-de-apoio {
+  position: relative;
+  background: linear-gradient(to right, #ffde59, #ff914d);
+  flex-direction: column;
+}
+
+.redes-de-apoio .top-pattern {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 400px;
+  z-index: 0;
+  object-fit: cover;
+  clip-path: inset(0 0 53% 0);
+  opacity: 0.5;
+}
+
+.redes-de-apoio .bottom-pattern {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  /* height: 400px; */
+  z-index: 0;
+  object-fit: cover;
+  clip-path: inset(0 0 53% 0);
+  opacity: 0.5;
+  bottom: 0;
+  transform: scaleY(-1);
+}
+
+.redes-de-apoio .wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+  z-index: 1;
+  padding: 150px 0;
+  gap: 128px;
+}
+
+.wrapper h4 {
+  text-align: center;
+  font-size: 56px;
+}
+
+.img3 {
+  display: grid;
+  flex-direction: column;
+}
+
+.img3 img:nth-child(2n) {
+  justify-self: flex-end;
+}
+
+.img3 img {
+  clip-path: polygon(
+    50% 0%,
+    80% 10%,
+    100% 35%,
+    100% 70%,
+    80% 90%,
+    50% 100%,
+    20% 90%,
+    0% 70%,
+    0% 35%,
+    20% 10%
+  );
+  width: 250px;
+  height: 250px;
+}
