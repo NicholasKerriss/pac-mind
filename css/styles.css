@@ -108,17 +108,25 @@ body {
 
 .section1 {
   background: linear-gradient(to right, black, #3533cd);
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.nossas-redes {
-  background: linear-gradient(to right, black, #3533cd);
+.section1 .wrapper img {
+  width: 800px;
 }
 
 .nossas-redes h3 {
   color: #f2d851;
   font-size: 34px;
-  justify-content: center;
-  align-items: center;
+}
+
+.nossas-redes h4 {
+  color: #f8e254;
+  font-size: 34px;
 }
 
 .redes-de-apoio {
@@ -395,6 +403,28 @@ footer {
 }
 /*-NOSSAS REDES-*/
 
+.nossas-redes {
+  background: linear-gradient(to right, black, #3533cd);
+  padding: 150px 0;
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nossas-redes img {
+  width: 730px;
+  height: 400px;
+  border-radius: 32px;
+  object-fit: cover;
+}
+
+.nossas-redes .social-icon {
+  width: 40px;
+  height: 40px;
+}
+
 /*-REDES DE APOIO-*/
 .redes-de-apoio {
   position: relative;
@@ -469,4 +499,12 @@ footer {
   );
   width: 250px;
   height: 250px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
 }
