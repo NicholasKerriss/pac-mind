@@ -38,6 +38,11 @@ body {
   font-size: 18px;
   padding-left: 14px;
   line-height: 20px;
+  text-transform: uppercase;
+}
+
+.logo span {
+  display: block;
 }
 
 .menu {
@@ -188,7 +193,7 @@ body {
   overflow: hidden;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 32px 0;
+  padding: 32px;
   z-index: 1;
   position: relative;
 }
@@ -318,13 +323,14 @@ footer {
 }
 
 .conteudo .family {
-  height: 400px;
+  height: 470px;
   object-fit: cover;
   margin-top: 10px;
   border-radius: 32px;
   border: 20px solid #e9e9e9;
   background: url("../img/family2.png");
   background-repeat: no-repeat;
+  background-position: center;
   object-fit: contain;
   background-size: cover;
 }
@@ -334,6 +340,7 @@ footer {
   background-repeat: no-repeat;
   object-fit: contain;
   background-size: cover;
+  background-position: bottom;
 }
 
 .conteudo a {
@@ -363,7 +370,7 @@ footer {
   overflow: hidden;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 150px 0;
+  padding: 150px 32px;
   position: relative;
 }
 
@@ -466,7 +473,7 @@ footer {
   flex-direction: column;
   margin: 0 auto;
   z-index: 1;
-  padding: 150px 0;
+  padding: 150px 32px;
   gap: 128px;
 }
 
